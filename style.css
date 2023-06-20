@@ -1,0 +1,75 @@
+body {
+    margin: 0; 
+    padding: 0;
+    
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .one {
+    background-color: yellow;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    
+    align-items: center;
+    
+  
+  }
+
+  .one h1 {
+    margin-top: 100px;
+    font-size: 4rem;
+    color: gray;
+    
+    
+  }
+  
+  .circle { 
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: flex-start;
+    background-color: rgb(209, 208, 208);
+    
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .circle h2 {
+        padding: 10px;
+        color: gray
+  }
+ 
+
+  .two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    background-color: red;
+    min-height: 20vh;
+  }
+
+
+ .two * {
+    width: 15%;
+    max-height: 10vh;
+  }
+  
+  .child1 {
+      background: linear-gradient(to top right, red 50%, yellow 50%);
+}
+
+.child2 {
+      background: linear-gradient(to bottom right, yellow 50%, red 50%);
+  }
+
+
+  /* Look guys, Im 36 yars old, ive seen a lot, I handled working for 5 years with drunk russian policemens, then 5 years in china working with kids, guys, you give me opportunity to work with adeqate people, I swear I dont even need the salary. All I want is to practice my programming skills with other people and learn from them. Hope you gonna choose me, have a good day Pinak Lab!    */
